@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../media/favour-otunji-dD7xFyDzES4-unsplash.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.content {
+  position: absolute; /*fits the fieldset*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  box-shadow: 0 5px 30px pink;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* margin-top: 15px; */
+}
+
+.content textarea {
+  font-size: 15px;
+  resize: none;
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: bisque;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.content input {
+  font-size: 15px;
+  padding: 5px 10px;
+  background-color: bisque;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+legend {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 0;
+  padding-bottom: 25px;
+  margin: 10px 0;
+  color: thistle;
+  font-family: "Playball", cursive;
+}
+
+input {
+  color: black;
+}
+
+#submitbutton {
+  font-size: 16px;
+  font-style: italic;
+  color: pink;
+  background-color: rgb(43, 35, 35);
+  width: 35%;
+  margin-left: 90px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* button {
+  font-size: 16px;
+  font-style: italic;
+  color: pink;
+  background-color: rgb(43, 35, 35);
+  width: 35%;
+  margin-left: 85px;
+  padding: 5px;
+} */

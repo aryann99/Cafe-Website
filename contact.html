@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Desk</title>
+
+    <link rel="stylesheet" href="/css/contact.css" </head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+
+<body>
+
+</body>
+
+<!-- <h3>Contact Form</h3> -->
+
+<div class="container">
+    <form>
+        <!-- <form action="/action_page.php"> -->
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="country">Subject</label>
+        <!-- <select id="country" name="country"> -->
+        <select id="matter" name="matter">
+            <option value="complaint">Complaint</option>
+            <option value="review">Review</option>
+            <option value="other">Other</option>
+        </select>
+
+        <label for="subject">Description</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div><a href="tel:7698322096" class="contact">+91 7698322096</a></div>
+
+
+</html>

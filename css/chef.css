@@ -1,0 +1,203 @@
+img {
+  border-radius: 25%;
+}
+
+body {
+  background-image: url(../media/Untitled\ design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h2.quote {
+  font-size: 70px;
+  font-family: "Marck Script", cursive;
+  color: rgb(49, 198, 228);
+  text-align: center;
+  padding: 50px;
+}
+
+/* -------------------------->> PROFILE1<<-------------------------- */
+
+.main1 {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.image1 {
+  /* padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px; */
+  padding: 100px 50px 50px 50px;
+  margin-top: 10%;
+  /* border: 5px solid black; */
+}
+
+.content1 h1 {
+  font-size: 80px;
+  padding-left: 30px;
+  font-family: "Marck Script", cursive;
+  color: rgb(173, 220, 220);
+}
+
+.content1 h1:hover {
+  color: white;
+}
+
+.content1 p {
+  font-size: 45px;
+  padding: 25px;
+  font-family: "Marck Script", cursive;
+  line-height: 1.2;
+}
+
+#history1 {
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+#history2 {
+  font-size: 25px;
+  font-style: italic;
+  padding-top: 0;
+  text-align: left;
+}
+
+#history3 {
+  font-size: 25px;
+  font-style: italic;
+  padding-top: 0;
+  text-align: left;
+}
+.image1history {
+  text-align: center;
+  display: inline-block;
+}
+
+/* -------------------------->> PROFILE2<<-------------------------- */
+
+.main2 {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.image2 {
+  /* padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px; */
+  padding: 100px 50px 50px 50px;
+  margin-top: 10%;
+  /* border: 5px solid black; */
+}
+
+.content2 h1 {
+  font-size: 80px;
+  padding-left: 30px;
+  font-family: "Marck Script", cursive;
+  color: rgb(173, 220, 220);
+}
+
+.content2 h1:hover {
+  color: white;
+}
+.content2 p {
+  font-size: 45px;
+  padding: 25px;
+  font-family: "Marck Script", cursive;
+  line-height: 1.2;
+}
+
+#history4 {
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+#history5 {
+  font-size: 25px;
+  font-style: italic;
+  padding-top: 0;
+  text-align: left;
+}
+
+#history6 {
+  font-size: 25px;
+  font-style: italic;
+  padding-top: 0;
+  text-align: left;
+}
+.image2history {
+  text-align: center;
+  display: inline-block;
+}
+
+/* -------------------------->> PROFILE3<<-------------------------- */
+
+.main3 {
+  width: 100%;
+  display: flex;
+  /* border: 2px solid black; */
+}
+
+.image3 {
+  /* padding-left: 50px;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px; */
+  padding: 100px 50px 50px 50px;
+  margin-top: 10%;
+  /* border: 5px solid black; */
+}
+
+.content3 h1 {
+  font-size: 80px;
+  padding-left: 30px;
+  font-family: "Marck Script", cursive;
+  color: rgb(173, 220, 220);
+}
+
+.content3 h1:hover {
+  color: white;
+}
+
+.content3 p {
+  font-size: 45px;
+  padding: 25px;
+  font-family: "Marck Script", cursive;
+  line-height: 1.2;
+}
+
+#history7 {
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.image3history {
+  text-align: center;
+  display: inline-block;
+}
+
+/* -------------------------->> ENDING<<-------------------------- */
+.ending {
+  text-align: center;
+  font-size: 35px;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
+.ending a {
+  color: rgb(173, 220, 220);
+}
+
+.ending a:hover {
+  color: white;
+}
